@@ -1,0 +1,8 @@
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\bin\Debug\proyecto.exe
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\bin\Debug\proyecto.pdb
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\obj\Debug\proyecto.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\obj\Debug\proyecto.MainForm.resources
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\obj\Debug\proyecto.csproj.GenerateResource.Cache
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\obj\Debug\proyecto.exe
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\CC2_PC43\proyecto\proyecto\proyecto\obj\Debug\proyecto.About.resources

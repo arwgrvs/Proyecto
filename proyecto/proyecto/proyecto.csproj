@@ -47,12 +47,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.cs" />
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eco.cs" />
+    <Compile Include="Eco.Designer.cs">
+      <DependentUpon>Eco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica.cs" />
+    <Compile Include="Fisica.Designer.cs">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Humani.cs" />
+    <Compile Include="Humani.Designer.cs">
+      <DependentUpon>Humani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingles.cs" />
+    <Compile Include="Ingles.Designer.cs">
+      <DependentUpon>Ingles.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mates.cs" />
+    <Compile Include="Mates.Designer.cs">
+      <DependentUpon>Mates.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

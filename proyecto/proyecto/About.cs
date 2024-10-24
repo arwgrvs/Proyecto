@@ -2,23 +2,22 @@
  * Created by SharpDevelop.
  * User: CC2_PC43
  * Date: 24/10/2024
- * Time: 03:55 p. m.
+ * Time: 04:14 p. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace proyecto
 {
 	/// <summary>
-	/// Description of MainForm.
+	/// Description of About.
 	/// </summary>
-	public partial class MainForm : Form
+	public partial class About : Form
 	{
-		public MainForm()
+		public About()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -30,25 +29,9 @@ namespace proyecto
 			//
 		}
 		
-		
-		void ComboBox1SelectedIndexChanged(object sender, EventArgs e)
+		void Button1Click(object sender, EventArgs e)
 		{
 			this.Close();
-		}
-		
-		void ComboBox2SelectedIndexChanged(object sender, EventArgs e)
-		{
-			About About=new About();
-			About.Show();
-		}
-		
-		void ComboBox3SelectedIndexChanged(object sender, EventArgs e)
-		{
-			if(comboBox3.Text=="Matematicas")
-			{
-				Mates Mates=new Mates();
-				Mates.Show();
-			}
 		}
 	}
 }
