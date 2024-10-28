@@ -49,6 +49,26 @@ namespace proyecto
 				Mates Mates=new Mates();
 				Mates.Show();
 			}
+			else if(comboBox3.Text=="Ingles")
+			{
+				Ingles Ingles=new Ingles();
+				Ingles.Show();
+			}
+			else if(comboBox3.Text=="Humanidades")
+			{
+				Humani Humani=new Humani();
+				Humani.Show();
+			}
+			else if(comboBox3.Text=="Ecosistemas")
+			{
+				Eco Eco=new Eco();
+				Eco.Show();
+			}
+			else if(comboBox3.Text=="Fisica")
+			{
+				Fisica Fisica=new Fisica();
+				Fisica.Show();
+			}
 		}
 	}
 }
