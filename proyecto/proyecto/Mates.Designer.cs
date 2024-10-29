@@ -36,12 +36,42 @@ namespace proyecto
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.btnc = new System.Windows.Forms.Button();
+			this.btnp = new System.Windows.Forms.Button();
+			this.SuspendLayout();
+			// 
+			// btnc
+			// 
+			this.btnc.Location = new System.Drawing.Point(12, 28);
+			this.btnc.Name = "btnc";
+			this.btnc.Size = new System.Drawing.Size(95, 22);
+			this.btnc.TabIndex = 0;
+			this.btnc.Text = "Calificaciones";
+			this.btnc.UseVisualStyleBackColor = true;
+			this.btnc.Click += new System.EventHandler(this.BtncClick);
+			// 
+			// btnp
+			// 
+			this.btnp.Location = new System.Drawing.Point(12, 69);
+			this.btnp.Name = "btnp";
+			this.btnp.Size = new System.Drawing.Size(95, 23);
+			this.btnp.TabIndex = 1;
+			this.btnp.Text = "Promedio";
+			this.btnp.UseVisualStyleBackColor = true;
+			this.btnp.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// Mates
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "Mates";
+			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.btnp);
+			this.Controls.Add(this.btnc);
 			this.Name = "Mates";
+			this.Text = "Mates";
+			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button btnp;
+		private System.Windows.Forms.Button btnc;
 	}
 }

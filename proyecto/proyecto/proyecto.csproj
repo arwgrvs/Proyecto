@@ -75,6 +75,14 @@
     <Compile Include="Mates.Designer.cs">
       <DependentUpon>Mates.cs</DependentUpon>
     </Compile>
+    <Compile Include="Matesc.cs" />
+    <Compile Include="Matesc.Designer.cs">
+      <DependentUpon>Matesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matesp.cs" />
+    <Compile Include="Matesp.Designer.cs">
+      <DependentUpon>Matesp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -87,6 +95,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mates.resx">
+      <DependentUpon>Mates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matesc.resx">
+      <DependentUpon>Matesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matesp.resx">
+      <DependentUpon>Matesp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

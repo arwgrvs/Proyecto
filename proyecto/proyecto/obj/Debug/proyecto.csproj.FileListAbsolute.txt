@@ -14,3 +14,15 @@ C:\Users\CC2-PC44\Proyecto\proyecto\proyecto\obj\Debug\proyecto.MainForm.resourc
 C:\Users\CC2-PC44\Proyecto\proyecto\proyecto\obj\Debug\proyecto.csproj.GenerateResource.Cache
 C:\Users\CC2-PC44\Proyecto\proyecto\proyecto\obj\Debug\proyecto.exe
 C:\Users\CC2-PC44\Proyecto\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\bin\Debug\proyecto.exe
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\bin\Debug\proyecto.pdb
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.About.resources
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.Eco.resources
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.MainForm.resources
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.Mates.resources
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.Matesc.resources
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.Matesp.resources
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.csproj.GenerateResource.Cache
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.exe
+C:\Users\CC2_PC11\Proyecto\proyecto\proyecto\obj\Debug\proyecto.pdb
