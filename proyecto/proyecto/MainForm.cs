@@ -66,8 +66,8 @@ namespace proyecto
 			}
 			else if(comboBox3.Text=="Fisica")
 			{
-				Fisica Fisica=new Fisica();
-				Fisica.Show();
+				Fisica0 Fisica0=new Fisica0();
+				Fisica0.Show();
 			}
 		}
 	}

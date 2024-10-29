@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC43
- * Date: 24/10/2024
- * Time: 04:23 p. m.
+ * User: CC2_PC12
+ * Date: 29/10/2024
+ * Time: 07:41 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace proyecto
 {
 	/// <summary>
-	/// Description of Fisica.
+	/// Description of Fisica2.
 	/// </summary>
-	public partial class Fisica : Form
+	public partial class Fisica2 : Form
 	{
-		public Fisica()
+		public Fisica2()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -36,8 +36,8 @@ namespace proyecto
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			Fisica2 Fisica2=new Fisica2();
-			Fisica2.Show();
+			Fisica3 Fisica3=new Fisica3();
+			Fisica3.Show();
 		}
 	}
 }
