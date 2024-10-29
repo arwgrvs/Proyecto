@@ -59,6 +59,22 @@
     <Compile Include="Fisica.Designer.cs">
       <DependentUpon>Fisica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fisica0.cs" />
+    <Compile Include="Fisica0.Designer.cs">
+      <DependentUpon>Fisica0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica2.cs" />
+    <Compile Include="Fisica2.Designer.cs">
+      <DependentUpon>Fisica2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica3.cs" />
+    <Compile Include="Fisica3.Designer.cs">
+      <DependentUpon>Fisica3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica4.cs" />
+    <Compile Include="Fisica4.Designer.cs">
+      <DependentUpon>Fisica4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Humani.cs" />
     <Compile Include="Humani.Designer.cs">
       <DependentUpon>Humani.cs</DependentUpon>
@@ -84,6 +100,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Eco.resx">
       <DependentUpon>Eco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica.resx">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica0.resx">
+      <DependentUpon>Fisica0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica2.resx">
+      <DependentUpon>Fisica2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica3.resx">
+      <DependentUpon>Fisica3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica4.resx">
+      <DependentUpon>Fisica4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
