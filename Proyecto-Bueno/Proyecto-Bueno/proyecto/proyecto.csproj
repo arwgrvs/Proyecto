@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{16375FC7-5E8A-4631-A774-ECCFFD73E13A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proyecto</RootNamespace>
+    <AssemblyName>proyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs" />
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eco.cs" />
+    <Compile Include="Eco.Designer.cs">
+      <DependentUpon>Eco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica.cs" />
+    <Compile Include="Fisica.Designer.cs">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica0.cs" />
+    <Compile Include="Fisica0.Designer.cs">
+      <DependentUpon>Fisica0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica2.cs" />
+    <Compile Include="Fisica2.Designer.cs">
+      <DependentUpon>Fisica2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica3.cs" />
+    <Compile Include="Fisica3.Designer.cs">
+      <DependentUpon>Fisica3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica4.cs" />
+    <Compile Include="Fisica4.Designer.cs">
+      <DependentUpon>Fisica4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Humani.cs" />
+    <Compile Include="Humani.Designer.cs">
+      <DependentUpon>Humani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingles.cs" />
+    <Compile Include="Ingles.Designer.cs">
+      <DependentUpon>Ingles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mates.cs" />
+    <Compile Include="Mates.Designer.cs">
+      <DependentUpon>Mates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eco.resx">
+      <DependentUpon>Eco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica.resx">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica0.resx">
+      <DependentUpon>Fisica0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica2.resx">
+      <DependentUpon>Fisica2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica3.resx">
+      <DependentUpon>Fisica3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica4.resx">
+      <DependentUpon>Fisica4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingles.resx">
+      <DependentUpon>Ingles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
